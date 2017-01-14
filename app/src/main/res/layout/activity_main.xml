@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:id="@+id/activity_main"
@@ -7,22 +8,31 @@
     android:layout_height="match_parent"
     tools:context="com.example.omega.fragmentactivity.MainActivity">
 
-
-    <TextView android:id="@+id/miTexto"
-        android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="@string/text_communication"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
     <fragment
         android:id="@+id/fragment_boton"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:name="com.example.omega.fragmentactivity.FragmentBoton"
-         />
+
+        />
+
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        app:srcCompat="@android:drawable/btn_dialog"
+        />
+
+    <fragment
+        android:id="@+id/fragment_texto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="com.example.omega.fragmentactivity.FragmentTexto"
+        />
+
 
 </LinearLayout>

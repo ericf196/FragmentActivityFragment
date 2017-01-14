@@ -2,12 +2,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_vertical"
     tools:context="com.example.omega.fragmentactivity.FragmentTexto">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="@string/text_communication"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:background="@color/colorAccent"
+        />
 
 </FrameLayout>
