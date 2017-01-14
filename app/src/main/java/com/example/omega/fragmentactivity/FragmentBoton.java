@@ -16,7 +16,7 @@ public class FragmentBoton extends Fragment{
     Button boton;
     CommunicationChannel mCommChListner = null;
 
-
+// prueba
     public FragmentBoton() {
         // Required empty public constructor
     }
