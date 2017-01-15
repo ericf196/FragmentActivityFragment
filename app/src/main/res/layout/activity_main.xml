@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.5"
-        app:srcCompat="@android:drawable/btn_dialog"
+        android:src="@drawable/ic_access_time_black_24dp"
         />
 
     <fragment
